@@ -10,7 +10,7 @@
 	3. Paste the below code into the editor and click Save.
 
 
-		```public with sharing class TaskWrapper{
+		public with sharing class TaskWrapper{
 
 		    public Task wrappedTask {get;set;}
 		    public Boolean selected {get;set;}
@@ -20,7 +20,6 @@
 		        selected = false;
 		    }
 		}
-		```
 
 
 	4. Login to verify step.
@@ -32,7 +31,7 @@
 	3. Paste the below code into the editor and click Save.
 
 
-	```public with sharing class wrapperExtension{
+	public with sharing class wrapperExtension{
 
 	    private final Account acc;
 	    public List<TaskWrapper> wrappedTasks {get;set;}
@@ -47,7 +46,7 @@
 	        }
 	    }
 	}
-	```
+
 
 
 	4. Login to verify step.
@@ -60,7 +59,7 @@
 	3. Paste the below code into the editor and click Save.
 
 
-		```<apex:page standardController="Account" extensions="wrapperExtension">
+		<apex:page standardController="Account" extensions="wrapperExtension">
 		<apex:form >
 
 		    <apex:sectionHeader title="Trailhead Quickstart" subtitle="Wrapper Classes" />
@@ -84,7 +83,7 @@
 
 		</apex:form>
 		</apex:page>
-		```
+
 
 
 	4. Login to verify step.
