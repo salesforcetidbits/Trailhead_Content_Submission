@@ -5,7 +5,7 @@
 
 ##Step 1: Create Wrapper Class.
 
-	1. From Setup, click _Develop_|_Apex_Classes_
+	1. From Setup, click **Develop** **|** **Apex** **Classes**
 	2. Click New.
 	3. Paste the below code into the editor and click Save.
 
