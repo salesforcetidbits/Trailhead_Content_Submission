@@ -107,6 +107,8 @@ Congratulations!  You have successfully used a wrapper class to encapsulate the 
 giving it a non-persistant checkbox field!  Now it is your turn to come up with clever uses
 for wrapper classes!
 
+
+
 ######Resources
 
 Apex Developer's Guide: https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/
