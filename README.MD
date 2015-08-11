@@ -33,7 +33,8 @@
 	3. Paste the below code into the editor and click Save.
 
 
-	`public with sharing class wrapperExtension{
+	```java
+	public with sharing class wrapperExtension{
 
 	    private final Account acc;
 	    public List<TaskWrapper> wrappedTasks {get;set;}
@@ -47,7 +48,8 @@
 	            wrappedTasks.add(new TaskWrapper(tmp));
 	        }
 	    }
-	}`
+	}
+	```
 
 
 
@@ -61,7 +63,8 @@
 	3. Paste the below code into the editor and click Save.
 
 
-		`<apex:page standardController="Account" extensions="wrapperExtension">
+		```html
+		<apex:page standardController="Account" extensions="wrapperExtension">
 		<apex:form >
 
 		    <apex:sectionHeader title="Trailhead Quickstart" subtitle="Wrapper Classes" />
@@ -84,7 +87,8 @@
 		    </apex:pageBlock>
 
 		</apex:form>
-		</apex:page>`
+		</apex:page>
+		```
 
 
 
