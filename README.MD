@@ -5,9 +5,9 @@
 
 ##Step 1: Create Wrapper Class.
 
-	1. From Setup, click **Develop | Apex Classes**
-	2. Click New.
-	3. Paste the below code into the editor and click Save.
+1. From Setup, click **Develop | Apex Classes**
+2. Click New.
+3. Paste the below code into the editor and click Save.
 
 
 ```java
@@ -24,13 +24,13 @@ public with sharing class TaskWrapper{
 ```
 
 
-	4. Login to verify step.
+4. Login to verify step.
 
 ##Step 2: Create Controller Extension.
 
-	1. From Setup, click **Develop | Apex Classes**
-	2. Click New.
-	3. Paste the below code into the editor and click Save.
+1. From Setup, click **Develop | Apex Classes**
+2. Click New.
+3. Paste the below code into the editor and click Save.
 
 
 ```java
@@ -53,14 +53,14 @@ public with sharing class wrapperExtension{
 
 
 
-	4. Login to verify step.
+4. Login to verify step.
 
 ##Step 3: Create Visualforce Page.
 
-	1. From Setup, click **Develop | Pages**.
-	2. Click New.
-	3. Type "Wrapped Tasks" in the Label field and hit the TAB key to autocomplete the name field.
-	3. Paste the below code into the editor and click Save.
+1. From Setup, click **Develop | Pages**.
+2. Click New.
+3. Type "Wrapped Tasks" in the Label field and hit the TAB key to autocomplete the name field.
+3. Paste the below code into the editor and click Save.
 
 
 ```html
@@ -92,24 +92,24 @@ public with sharing class wrapperExtension{
 
 
 
-	4. Login to verify step.
+4. Login to verify step.
 
 ##Step 4: Create Custom Button.
 
-	1. From Setup, click **Customize | Accounts | Buttons, Links, and Actions**
-	2. Click New Button or Link.
-	3. In the Label field, tpe "Wrap it up!" and press the TAB key to autocomplete the name field.
-	4. Click the "Detail Page Button" radio button.
-	5. Change the "Content Source" field to "Visualforce Page".
-	6. In the "Content" field, choose the new "Wrapped Tasks" visualforce page created in step 3 and clik save.
-	7. If a dialog box pops up, click ok.
-	8. Navigate to the "Accounts" tab and click on an account record.
-	9. In the top right hand side of the page, click the "Edit Layout" link.
-	10. Add the new "Wrap it up!" button to the page layout and click save.
+1. From Setup, click **Customize | Accounts | Buttons, Links, and Actions**
+2. Click New Button or Link.
+3. In the Label field, tpe "Wrap it up!" and press the TAB key to autocomplete the name field.
+4. Click the "Detail Page Button" radio button.
+5. Change the "Content Source" field to "Visualforce Page".
+6. In the "Content" field, choose the new "Wrapped Tasks" visualforce page created in step 3 and clik save.
+7. If a dialog box pops up, click ok.
+8. Navigate to the "Accounts" tab and click on an account record.
+9. In the top right hand side of the page, click the "Edit Layout" link.
+10. Add the new "Wrap it up!" button to the page layout and click save.
 
-	Back on the account detail page, click the "Wrap it up!" detail button to launch the new page.
-	Notice that our non-persistant checkbox is displayed as a column like any other Task field.
+Back on the account detail page, click the "Wrap it up!" detail button to launch the new page.
+Notice that our non-persistant checkbox is displayed as a column like any other Task field.
 
-	Congratulations!  You have successfully used a wrapper class to encapsulate the Task sObject
-	giving it a non-persistant checkbox field!  Now it is your turn to come up with clever uses
-	for wrapper classes!
+Congratulations!  You have successfully used a wrapper class to encapsulate the Task sObject
+giving it a non-persistant checkbox field!  Now it is your turn to come up with clever uses
+for wrapper classes!
