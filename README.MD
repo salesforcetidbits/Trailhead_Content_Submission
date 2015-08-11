@@ -10,7 +10,8 @@
 	3. Paste the below code into the editor and click Save.
 
 
-		`public with sharing class TaskWrapper{
+		```java
+		public with sharing class TaskWrapper{
 
 		    public Task wrappedTask {get;set;}
 		    public Boolean selected {get;set;}
@@ -19,7 +20,8 @@
 		        wrappedTask = t;
 		        selected = false;
 		    }
-		}`
+		}
+		```
 
 
 	4. Login to verify step.
