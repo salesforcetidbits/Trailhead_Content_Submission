@@ -91,7 +91,7 @@ Login to verify step.
 
 1. From Setup, click **Customize | Accounts | Buttons, Links, and Actions**
 2. Click New Button or Link.
-3. In the Label field, tpe "Wrap it up!" and press the TAB key to autocomplete the name field.
+3. In the Label field, type "Wrap it up!" and press the TAB key to autocomplete the name field.
 4. Click the "Detail Page Button" radio button.
 5. Change the "Content Source" field to "Visualforce Page".
 6. In the "Content" field, choose the new "Wrapped Tasks" visualforce page created in step 3 and clik save.
