@@ -1,6 +1,6 @@
 #Wrapper Classes
 
-	Wrapper classes allow developers to encapsulate sObject records with non-persistant attributes.  In this quick start, you will create a wrapper class that will bind a non-persistant checkbox field to the Task sObject.  The checkbox field will only exist during runtime and will capture user input, binding that input to each individual Task as if the checkbox was an actual field on the Task object.  You will start by creating the wrapper class and then you will create the Visualforce controller extension and page that will encapsulate all tasks related to an account.  You will finish up by creating a custom detail button on the account sObject to call the page.
+Wrapper classes allow developers to encapsulate sObject records with non-persistant attributes.  In this quick start, you will create a wrapper class that will bind a non-persistant checkbox field to the Task sObject.  The checkbox field will only exist during runtime and will capture user input, binding that input to each individual Task as if the checkbox was an actual field on the Task object.  You will start by creating the wrapper class and then you will create the Visualforce controller extension and page that will encapsulate all tasks related to an account.  You will finish up by creating a custom detail button on the account sObject to call the page.
 
 
 ##Step 1: Create Wrapper Class.
@@ -8,8 +8,6 @@
 1. From Setup, click **Develop | Apex Classes**
 2. Click New.
 3. Paste the below code into the editor and click Save.
-
-
 ```java
 public with sharing class TaskWrapper{
 
@@ -22,16 +20,13 @@ public with sharing class TaskWrapper{
     }
 }
 ```
-
-
-4. Login to verify step.
+Login to verify step.
 
 ##Step 2: Create Controller Extension.
 
 1. From Setup, click **Develop | Apex Classes**
 2. Click New.
 3. Paste the below code into the editor and click Save.
-
 
 ```java
 public with sharing class wrapperExtension{
@@ -53,7 +48,7 @@ public with sharing class wrapperExtension{
 
 
 
-4. Login to verify step.
+Login to verify step.
 
 ##Step 3: Create Visualforce Page.
 
@@ -90,9 +85,7 @@ public with sharing class wrapperExtension{
 </apex:page>
 ```
 
-
-
-4. Login to verify step.
+Login to verify step.
 
 ##Step 4: Create Custom Button.
 
