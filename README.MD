@@ -106,3 +106,8 @@ Notice that our non-persistant checkbox is displayed as a column like any other 
 Congratulations!  You have successfully used a wrapper class to encapsulate the Task sObject
 giving it a non-persistant checkbox field!  Now it is your turn to come up with clever uses
 for wrapper classes!
+
+######Resources
+Apex Developer's Guide: https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/
+Visualforce Developer's Guide: https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/
+Success Community: https://success.salesforce.com/answers?id=90630000000hSoLAAU
