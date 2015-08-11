@@ -108,6 +108,7 @@ giving it a non-persistant checkbox field!  Now it is your turn to come up with 
 for wrapper classes!
 
 ######Resources
+
 Apex Developer's Guide: https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/
 
 Visualforce Developer's Guide: https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/
